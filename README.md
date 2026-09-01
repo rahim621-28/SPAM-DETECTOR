@@ -1,2 +1,2 @@
 # SPAM-DETECTOR
-g
+
