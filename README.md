@@ -29,11 +29,11 @@ Spam filtering is a classic text classification problem, but the interesting par
 
 ## Results
 
-| Model | Spam Precision | Spam Recall | Spam F1-score |
-|---|---|---|---|
-| Naive Bayes | 1.00 | 0.85 | 0.92 |
-| Logistic Regression (default) | 1.00 | 0.70 | 0.82 |
-| **Logistic Regression (balanced)** | **0.95** | **0.93** | **0.94** |
+| Model                              | Spam Precision | Spam Recall | Spam F1-score |
+| ---------------------------------- | -------------- | ----------- | ------------- |
+| Naive Bayes                        | 1.00           | 0.85        | 0.92          |
+| Logistic Regression (default)      | 1.00           | 0.70        | 0.82          |
+| **Logistic Regression (balanced)** | **0.95**       | **0.93**    | **0.94**      |
 
 **Chosen model: Logistic Regression with balanced class weights.**
 
@@ -43,7 +43,9 @@ The default models were highly precise (zero false positives) but missed a meani
 
 An interactive Streamlit app lets you type any message and see it classified live.
 
-*(Add a screenshot of your running app here, and the deployed link if you publish it via Streamlit Community Cloud — free to host.)*
+![Spam Detector Demo](screenshot.png)
+
+_(Add the deployed link here if you publish it via Streamlit Community Cloud — free to host.)_
 
 ## Tech Stack
 
@@ -71,5 +73,4 @@ To explore the analysis and model comparison directly, open `spamdetector.ipynb`
 
 ## Author
 
-**Rahim Khan**
-GitHub: [rahim621-28](https://github.com/rahim621-28)
+**RAHIM KHAN**
