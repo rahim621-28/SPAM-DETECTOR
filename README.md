@@ -45,7 +45,7 @@ An interactive Streamlit app lets you type any message and see it classified liv
 
 ![Spam Detector Demo](screenshot.png)
 
-_(Add the deployed link here if you publish it via Streamlit Community Cloud — free to host.)_
+
 
 ## Tech Stack
 
